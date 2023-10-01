@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper, scissors, lizard, Spock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock| paper| scissors| lizard| Spock</h1>
+    <div class="scores">
+        <p class="player">PLAYER</p>
+        <span class="player_points"></span>
+        <span class="computer_points"></span>
+        <p class="computer">COMPUTER</p>
+    </div>
+    <section class="options">
+        <button data-option="ROCK"><img src="./img/rock.jpg" alt="rock"></button>
+        <button data-option="PAPER"><img src="./img/paper.jpg" alt="paper"></button>
+        <button data-option="SCISSORS"><img src="./img/scissors.jpg" alt="scissors"></button>
+        <button data-option="LIZARD"><img src="./img/lizard.jpg" alt="lizard"></button>
+        <button data-option="SPOCK"><img src="./img/spock.jpg" alt="spock"></button>
+    </section>
+    <div class="choices">
+        <p class="player">Player has chosen: <span class="player-choice">ROCK</span></p>
+        <p class="comp">Computer has chosen: <span class="comp-choice">PAPER</span></p>
+    </div>
+    <p class="results"></p>
+    <button class="reset-game">Reset Game</button>
+    <script src="./app.js"></script>
+</body>
+</html>
